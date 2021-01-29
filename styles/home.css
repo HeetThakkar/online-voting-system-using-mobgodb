@@ -1,0 +1,62 @@
+#carouselExampleIndicators{
+    margin-left: 3%;
+    width: 94%;
+}
+.navbar{
+    font-size: x-large;
+}
+.navbar-brand{
+    font-size: xx-large;
+}
+.nav-link{
+   
+    color: white;
+margin-top: -25px;
+padding-top: 0px;
+margin-left: 0px;
+}
+.dropdown-menu{
+    margin-top: px;
+    text-align: center;
+}
+.links{
+ color: grey;
+ font-size:15px;
+}
+.quries{
+    margin-right: 0px;
+    margin-left: -15px;
+    
+    color: white;
+}
+.home{
+    margin-right: 0px;
+    margin-left:-40px;
+    color: white;
+}
+#green_div{
+    border-color: rgb(20, 243, 20);
+    background-color:rgb(20, 243, 20); 
+    border-radius: 90px 90px 90px 90px; 
+    width: 2%;
+    margin-left: 10%;
+}
+#heading4{
+    margin-left: 10%;
+}
+#lorem2{
+    font-size: 25px;
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+.card{
+    margin-left: 70%;
+}
+#viewmorediv1{
+    display: none;
+}
+.viewm{
+    background-color: white;
+    border: none;
+    color: rgb(48, 48, 226);
+}

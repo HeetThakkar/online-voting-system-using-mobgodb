@@ -1,0 +1,137 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto ;
+	
+	background-image: url("images/img.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	padding: 5px;
+	height: 800px;
+   
+   
+  }
+  
+  .grid-container > div {
+	
+	text-align: center;
+	padding: 10px 0;
+	font-size: 20px;
+  }
+  
+  .item1 {
+	grid-column: 1 / 5;
+	
+	height: 40px;
+  }
+  .item3{
+	grid-column: 1 / 5;
+	height: 50px;
+	background-color: none;
+  }
+  .item2 {
+	grid-column: 4 / 5;
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 480px;
+	
+	
+	
+  }
+  .item2:hover > .grid-container{
+	 background-image: url("images/bg.jpg"); 
+		
+  }
+  
+  
+  
+  
+  
+  
+  input[type=text] {
+	width: 50%;
+	padding: 12px;
+	border-color: rgb(247, 243, 243);
+	border-radius: 4px;
+	resize: vertical;
+	background-color: transparent;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	outline: none;
+	color:white;
+  }
+  input[type=password] {
+	width: 50%;
+	padding: 12px;
+	border-color: rgb(243, 233, 233);
+	background-color: transparent;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	resize: vertical;
+	outline: none;
+	color:white;
+  }
+  
+   font {
+   
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+  }
+  
+  input[type=button] {
+	background-color: rgb(77, 89, 201);
+	color: white;
+	padding: 12px 50px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 10px;
+	
+  }
+  
+  input[type=button]:hover {
+	background-color: #9090db;
+  }
+  
+  a:hover{
+	  color: rgb(221, 123, 11);
+  }
+  .avatar{
+	  width: 150px;
+	  height: 150px;
+	 position: relative;
+	  top: -80px;
+	  
+  }
+  
+
+  #panel {
+	padding: 5px;
+	text-align: center;
+	background-color: #e5eecc;
+	border: solid 1px #c3c3c3;
+  }
+  
+  
+  #panel {
+	padding: 10px;
+	display: none;
+	background-color: rgba(182, 111, 44,0.7);
+	border: none;
+	color: white;
+	font-size: 2vw;
+  }
+  .btn {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 16px;
+	cursor: pointer;
+	float: right;
+	outline: none;
+	height: 60px;
+  }
+  .btn:hover {
+	background-color: RoyalBlue;
+  }

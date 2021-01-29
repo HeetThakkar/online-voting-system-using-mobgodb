@@ -1,0 +1,124 @@
+.bg {
+    position: relative;
+    background: orchid;
+    overflow: hidden;
+}
+
+.main {
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* You could use :after - it doesn't really matter */
+
+.bg:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.list-group-item {
+    background-color: grey;
+    font-variant: small-caps;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vmax;
+    text-align: left;
+    float: left;
+}
+
+.list-group-item:hover {
+    background-color: skyblue;
+    font-weight: bolder;
+}
+
+#floating {
+    position: relative;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    color: mediumblue;
+    font-size: 5vmax;
+    font-family: fantasy;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 100%;
+        top: 0px;
+    }
+}
+
+#instructions {
+    padding-top: 20px;
+    color: red;
+    font-variant: normal;
+    font-weight: bolder;
+    font-size: 120%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btnn {
+    background-color: rgb(3, 3, 58);
+    border-color: black;
+    border-radius: 50px;
+    font-variant: small-caps;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    box-shadow: 0 5px black;
+    text-decoration: aliceblue;
+    position: relative;
+    float: right;
+    right: 40px;
+}
+
+#btnn:hover {
+    background-color: rgb(82, 1, 82);
+}
+
+input[type="radio"] {
+    float: right;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 25px;
+    -ms-transform: scale(3);
+    /* IE 9 */
+    -webkit-transform: scale(3);
+    /* Chrome, Safari, Opera */
+    transform: scale(3);
+}
+
+#result {
+    text-align: center;
+    background-color: inherit;
+    color: darkgreen;
+    font-variant: small-caps;
+    font-size: 2vmax;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: bolder;
+}

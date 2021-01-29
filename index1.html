@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title> Login </title>
+    <link rel="stylesheet" type="text/css" href="styles/style1.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/js.js"></script> 
+
+</head>
+<body>
+
+
+
+    <div class="grid-container">
+      <div class="item1">
+        <div id="flip">
+          <button class="btn" ><i class="fa fa-home" > <a href="index.php" style="text-decoration:none;color:white;"> Home</a></i></button>
+        </div>
+        <div id="panel" > Digital India</div>
+        
+      </div>
+      <div class="item3">
+        <marquee direction="right" behavior="alternate" style="color: white; font-size: 2vw;" id="animation">  
+          Welcome to online voting System  
+          </marquee> 
+        
+      </div>
+      
+      
+      <div class="item2">
+         
+        <img src="images/av.png" class="avatar"><br>
+        <b><font>Username</font></b><br>
+        <form action="checkuser.php" method="Post" name="myform">
+        <input type="text" id="email" name="email" placeholder="Email-Id or AddharNumber"><br>
+        <b><font>Password</font></b><br>
+            <input type="password" id="password" name="password" placeholder="Password"><br><br>
+        <input type="submit" value="Log in" ><br>
+        <b><pre style="color: rgb(219, 201, 201); font-size: 1.5vw;"> Don't have an account? <a href="php/registration.php">Sign Up </a></pre></b>
+        </form>
+    
+      </div>
+      
+      
+    </div>
+    
+    </body>
+</html>
+</html>
